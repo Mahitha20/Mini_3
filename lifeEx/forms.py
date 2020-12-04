@@ -3,7 +3,7 @@ from django import forms
 class Home(forms.Form):
     Year = forms.IntegerField()
     Status=forms.IntegerField()
-    Adult_Morality = forms.IntegerField()
+    Adult_Mortality = forms.IntegerField()
     Infant_deaths = forms.IntegerField()
     Alcohol = forms.FloatField()
     Expenditure= forms.FloatField()
@@ -17,7 +17,7 @@ class Home(forms.Form):
     HIV_AIDS = forms.FloatField()
     GDP = forms.FloatField()
     Population = forms.IntegerField()
-    Thinnes_19_years = forms.FloatField()
+    Thinness_19_years = forms.FloatField()
     Thinness_9_years = forms.FloatField()
     Income_Composition = forms.FloatField()
     Schooling = forms.FloatField()
