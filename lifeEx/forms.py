@@ -1,11 +1,11 @@
 from django import forms
 
 class Home(forms.Form):
-    Year = forms.IntegerField()
+    Year = forms.CharField()
     Status=forms.IntegerField()
     Adult_Morality = forms.IntegerField()
     Infant_deaths = forms.IntegerField()
-    Alcohol = forms.FloatField()
+    Alcohol = forms.DecimalField()
     Expenditure= forms.FloatField()
     Hepatitis_b=forms.IntegerField()
     Measles = forms.IntegerField()
